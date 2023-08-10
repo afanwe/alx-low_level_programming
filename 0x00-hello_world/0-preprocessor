@@ -1,0 +1,2 @@
+#!/binin/bash
+gcc $CFILE -o c
