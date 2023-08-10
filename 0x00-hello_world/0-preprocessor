@@ -1,2 +1,2 @@
-#!/binin/bash
+#!/bin/bash
 gcc $CFILE -o c
