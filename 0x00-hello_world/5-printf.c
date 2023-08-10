@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-/** 
- * main - this will print a sentence
- * Return: THis returns 0 if programs runs without errors
+/**
+ * main - This prints a sentence
+ * Return: This returns 0 when execution is succesful
  */
 
 int main(void)
