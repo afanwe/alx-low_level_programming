@@ -1,13 +1,16 @@
+#include <unistd.h>
 #include "main.h"
 
 /**
- * main - prints letters a - z
- * Return: returns 0 upon successfull execution
+ * print_alphabet - prints alphabets a-z
+ * variable will contain each alphabet
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
+	char letter;
 
-	return (0);
+	for (letter = 'a'; letter <= 'z'; letter++)
+		_putchar(letter);
+	_putchar('\n');
 }
