@@ -10,9 +10,9 @@ int _islower(int c)
 {
 	int result;
 
-	if (c > 96 && c < 123)
+	if (c >= 'a'  && c <= 'z')
 		result = 1;
-	else if (c < 91 && c > 64)
+	else
 		result = 0;
 	return (result);
 }
