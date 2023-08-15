@@ -3,7 +3,7 @@
 /**
  * print_sign - checks if n is less, greater than or equals to 0
  * @n: will be our testing character
- * Returns: returns 1 if greater, 0 if 0, -1 if less than 0
+ * Return: returns 1 if greater, 0 if 0, -1 if less than 0
  */
 
 int print_sign(int n)
