@@ -2,19 +2,18 @@
 
 /**
  * main - This print text
- * Return: returns 0 upon successful execution
+ * Return: returnsx 0 upon successful execution
  */
 
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char word[] = "_putchar";
+	int i;
+
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(word[i]);
+	}
 	_putchar('\n');
 
 	return (0);
