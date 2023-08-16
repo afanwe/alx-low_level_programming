@@ -12,7 +12,7 @@ int main(void)
 	long int nextnum;
 	int i;
 
-	for (i = 0; i < 51; i++)
+	for (i = 0; i < 50; i++)
 	{
 		nextnum = num1 + num2;
 		if (i != 50)
