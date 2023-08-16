@@ -15,7 +15,7 @@ int main(void)
 	for (i = 0; i < 50; i++)
 	{
 		nextnum = num1 + num2;
-		if (i != 50)
+		if (i != 49)
 			printf("%li, ", num1);
 		else
 			printf("%li\n", num1);
