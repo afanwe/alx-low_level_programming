@@ -7,3 +7,5 @@
 #
 **0x03. C - Debugging** - Introduction to code/program debugging.
 #
+**0x04. C - More functions, more nested loops** - More programs files on functions and nested loops.
+#
