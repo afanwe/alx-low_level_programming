@@ -25,7 +25,14 @@ int main(void)
 		}
 		else
 		{
-			printf("FizzBuzz ");
+			if (i == 100)
+			{
+				printf("FizzBuzz");
+			}
+			else
+			{
+				printf("FizzBuzz ");
+			}
 		}
 	}
 	putchar('\n');
