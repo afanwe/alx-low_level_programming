@@ -3,6 +3,7 @@
 /**
  * _strlen - counts len of strength
  * @s: will be the string to check
+ * Return: returns length of s
  */
 
 int _strlen(char *s)
@@ -18,4 +19,3 @@ int _strlen(char *s)
 
 	return (str_length);
 }
-	
