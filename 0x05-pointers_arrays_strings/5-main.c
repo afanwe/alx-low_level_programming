@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * main - checks and executes code
- * Return: 0 upon succesful execution
+ * main - check the code
+ * Return: 0 upon success
  */
 
 int main(void)
@@ -13,6 +13,5 @@ int main(void)
 	printf("%s\n", s);
 	rev_string(s);
 	printf("%s\n", s);
-
 	return (0);
 }
