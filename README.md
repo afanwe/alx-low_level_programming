@@ -9,3 +9,5 @@
 #
 **0x04. C - More functions, more nested loops** - More programs files on functions and nested loops.
 #
+**0x05. C - Pointers, arrays and strings** - Introduction to Pointer, arrarys and strings.
+#
