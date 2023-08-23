@@ -11,3 +11,5 @@
 #
 **0x05. C - Pointers, arrays and strings** - Introduction to Pointer, arrarys and strings.
 #
+**0x06. C - More pointers, arrays and strings** - More c programs on pointers, arrays and string.
+#
