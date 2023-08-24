@@ -24,19 +24,15 @@ int _strcmp(char *s1, char *s2)
 		s2_len++;
 	}
 
-	if (s1 == s2)
+	i = 0;
+	while (i < s1_len && i < s2_len)
 	{
-		return (0);
-	}
-	else
-	{
-		if (s1_len < s2_len)
+		if (s1[i] != s2[i])
 		{
-			return (-15);
+			return (s1[i] - s2[i]);
 		}
-		else
-		{
-			return (15);
-		}
+		i++;
 	}
+
+	return (0);
 }
