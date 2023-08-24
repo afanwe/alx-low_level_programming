@@ -12,9 +12,9 @@ char *string_toupper(char *str)
 
 	i = 0;
 
-	for(i = 0; str[i] != '\0'; i++)
+	for (i = 0; str[i] != '\0'; i++)
 	{
-		if(str[i] >= 97 && str[i] <= 122)
+		if (str[i] >= 97 && str[i] <= 122)
 			str[i] -= 32;
 	}
 
