@@ -4,6 +4,7 @@
  * @dest: first string
  * @src: second string
  * @n: numbers of characters to append
+ * Return: returns new string
  */
 
 char *_strncat(char *dest, char *src, int n)
