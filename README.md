@@ -13,3 +13,4 @@
 #
 **0x06. C - More pointers, arrays and strings** - More c programs on pointers, arrays and string.
 #
+**0x07. C - Even more pointers, arrays and strings** - advansed challenged on pointers, arrays and strings.
