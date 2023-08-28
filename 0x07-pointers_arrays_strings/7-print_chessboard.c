@@ -3,7 +3,7 @@
 
 /**
  * print_chessboard - checks and prints chessboard
- * @s: multidimensional array to print
+ * @a: multidimensional array to print
  */
 
 void print_chessboard(char (*a)[8])
