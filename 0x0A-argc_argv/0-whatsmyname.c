@@ -7,13 +7,13 @@
  * Return: 0 always
  */
 
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
 	int i, len;
 
 	len = 0;
 
-	for (i = 0; argv[argc - 1][i] != '\0'; i++)
+	for (i = 0; argv[0][i] != '\0'; i++)
 	{
 		len++;
 	}
