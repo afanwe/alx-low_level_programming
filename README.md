@@ -19,3 +19,5 @@
 #
 **0x09-static_libraries** - Introduction to static libraries.
 #
+**0x0A. C - argc, argv** - introduction to argc and argv
+#
