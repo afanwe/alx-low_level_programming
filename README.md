@@ -17,3 +17,5 @@
 #
 **0x08. C - Recursion** - Introduction to recursion functions.
 #
+**0x09-static_libraries** - Introduction to static libraries.
+#
