@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 
 	len = 0;
 
-	for ( i = 0; argv[argc - 1][i] != '\0'; i++)
+	for (i = 0; argv[argc - 1][i] != '\0'; i++)
 	{
 		len++;
 	}
