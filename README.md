@@ -21,3 +21,5 @@
 #
 **0x0A. C - argc, argv** - introduction to argc and argv
 #
+**0x0B. C - malloc, free** - Introduction to dynamic memory allocation and memory management.
+#
