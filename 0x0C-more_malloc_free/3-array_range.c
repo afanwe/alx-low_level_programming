@@ -17,20 +17,22 @@ int *array_range(int min, int max)
 	i = 0;
 
 	if (min > max)
+	{
 		return (NULL);
+	}
 
 	numbers = malloc(sizeof(int) * max + 1);
 
 	if (numbers != NULL)
 	{
-		 while (min != max)
-		 {
-			 numbers[i] = min;
-			 min++;
-			 i++;
-		 }
-		 numbers[i] = max;
-		 return (numbers);
+		while (min != max)
+		{
+			numbers[i] = min;
+			min++;
+			i++;
+		}
+		numbers[i] = max;
+		return (numbers);
 	}
 	return (NULL);
 }
