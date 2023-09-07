@@ -23,3 +23,5 @@
 #
 **0x0B. C - malloc, free** - Introduction to dynamic memory allocation and memory management.
 #
+**0x0C. C - More malloc, free** - Deeper dive into dynamic memory allocation and memory management.
+#
