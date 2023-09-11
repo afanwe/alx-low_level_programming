@@ -27,3 +27,5 @@
 #
 **0x0D. C - Preprocessor** - Working with Preprossor, Macros, Macro Arguments
 #
+**0x0E. C - Structures, typedef** - Working with Structures and typedef.
+#
