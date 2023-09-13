@@ -31,3 +31,5 @@
 #
 **0x0E. C - Structures, typedef** - Working with structures and typedef
 #
+**0x0F. C - Function pointers** - Introduction to function pointers.
+#
