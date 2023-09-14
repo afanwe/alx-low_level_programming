@@ -2,16 +2,15 @@
 #include <stdio.h>
 
 /**
- * main - prints it's own opcodes 
+ * main - prints its own opcodes
  * @argc: number of arguments passed on execution
- * @argv: arrary of the arguments passed on execution
- * REturn: returns 0 upon successful execution
+ * @argv: array of arguments passed on execution
+ * Return: 0 upon succesful execution
  */
 
 int main(int argc, char *argv[])
 {
-	int num_bytes;
-	int i;
+	int i, num_bytes;
 	char *array;
 
 	if (argc != 2)
