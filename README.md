@@ -33,3 +33,5 @@
 #
 **0x0F. C - Function pointers** - Introduction to function pointers.
 #
+**0x10. C - Variadic functions** - WOrking with variadic functions and the stdarg.h library.
+#
