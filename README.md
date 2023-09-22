@@ -35,3 +35,5 @@
 #
 **0x10. C - Variadic functions** - WOrking with variadic functions and the stdarg.h library.
 #
+**0x12. C - Singly linked lists** - Introduction to singly linked lists.
+#
