@@ -7,8 +7,8 @@
 
 void free_listint(listint_t *head)
 {
-	listnt_t *current_node;
-	listnt_t *next_node;
+	listint_t *current_node;
+	listint_t *next_node;
 
 	current_node = head;
 
