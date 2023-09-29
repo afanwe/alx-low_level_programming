@@ -6,7 +6,7 @@
  * Return: returns int value of binary
  */
 
-unsigned int binary_to_uint(const char *b);
+unsigned int binary_to_uint(const char *b)
 {
 	char ch;
 	unsigned int value;
@@ -28,6 +28,5 @@ unsigned int binary_to_uint(const char *b);
 	}
 	else
 		return (0);
-
 	return (value);
 }
