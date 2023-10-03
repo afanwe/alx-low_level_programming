@@ -6,7 +6,7 @@
  * @str: string to print depending on the code returned
  * @fl1: file one
  * @fl2: file two
- * Return: code 
+ * Return: code
  */
 
 void exit_code(int er_code, const char *str, int fl1, int fl2)
@@ -56,7 +56,6 @@ int main(int argc, char *argv[])
 
 	if (fl_dest == -1)
 		exit_code(99, "Error: Can't write to file %s\n", fl_src, fl_dest);
-
 	while ((read_bytes = read(fl_src, buf, BUFFER_SIZE)) > 0)
 	{
 		wrt_bytes = write(fl_dest, buf, read_bytes);
@@ -71,6 +70,5 @@ int main(int argc, char *argv[])
 
 	if (close(fl_src) == -1 || close(fl_dest) == -1)
 		exit_code(100, "Error: Can't close fd %d\n", fl_src, fl_dest);
-
 	return (0);
 }
